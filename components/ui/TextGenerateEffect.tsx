@@ -34,7 +34,7 @@ export const TextGenerateEffect = ({
             <motion.span
               key={word + idx}
               // change here if idx is greater than 3, change the text color to #CBACF9
-              className={` ${idx > 3 ? "text-green-500 lg:text-4xl" : "dark:text-white text-black text-sm"
+              className={` ${idx > -1 ? "text-yellow-500 lg:text-6xl" : "dark:text-white text-black text-sm"
                 }  opacity-0`}
             >
               {word}{" "}

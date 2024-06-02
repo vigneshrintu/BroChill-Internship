@@ -7,8 +7,6 @@ import Lottie from "react-lottie";
 import { cn } from "@/lib/utils";
 
 
-import { BackgroundGradientAnimation } from "./GradientBg";
-import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
 
@@ -23,7 +21,7 @@ export const BentoGrid = ({
     <div
       className={cn(
         // change gap-4 to gap-8, change grid-cols-3 to grid-cols-5, remove md:auto-rows-[18rem], add responsive code
-        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-2 lg:gap-4 mx-auto",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-4 mx-auto",
         className
       )}
     >
@@ -66,7 +64,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "contact@brochill.com";
+    const text = "bropro.app@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -79,13 +77,9 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        
-        //   add these two
-        //   you can generate the color from here https://cssgradient.io/
-        background: "rgb(5,5,20)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+        backgroundColor: "#000000",
       }}
+      
     >
       {/* add img divs */}
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
@@ -112,10 +106,9 @@ export const BentoGridItem = ({
           )}
         </div>
         {id === 6 && (
-          // add background animation , remove the p tag
-          <BackgroundGradientAnimation>
+          
             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
-          </BackgroundGradientAnimation>
+         
         )}
 
         <div
@@ -134,10 +127,7 @@ export const BentoGridItem = ({
             {description}
           </div>
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
-          {/* remove mb-2 mt-2 */}
-
-          {/* for the github 3d globe */}
-          {id === 2 && <GridGlobe />}
+          
 
    
           {id === 6 && (

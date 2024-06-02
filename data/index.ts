@@ -8,40 +8,31 @@ export const gridItems = [
     id: 1,
     title: "",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-2 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end text-black-100",
-    img: "/logo.png",
-    spareImg: "",
-  },
-  {
-    id: 2,
-    title: "LOCAL IS THE NEW GLOBAL",
-    description: "45 million+ downloads across globe yet still counting & BroChill is available in Hindi, Telugu, Tamil, Kannada, Malayalam, Gujarati and Bengali, Bhojpuri...",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-7",
-    imgClassName: "",
-    titleClassName: "justify-start text-green-400",
-    img: "",
+    img: "/dudepro-brand.png",
     spareImg: "",
   },
 
+
   {
     id: 4,
-    title: "What is BroChill ?",
-    description: "Brochill is a vernacular content platform. It is a personalizable content discovery platform. Creators post personalisable images and videos, and users consume them. All content is curated based on trends, events and festivals.",
+    title: "What is DudePro ?",
+    description: "Create stunning videos effortlessly with DudePro, the ultimate video editing app that brings you a wide range of free pro templates. Unleash your creativity and make professional-quality videos in minutes. Whether you’re a seasoned editor or a beginner, DudePro makes video creation a breeze. Explore our diverse collection of pro templates and transform your content into something extraordinary. It’s time to edit like a pro, and it’s all in the palm of your hand with DudePro!",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center text-green-400",
+    titleClassName: "justify-center md:justify-start lg:justify-center text-yellow-500",
     img: "",
     spareImg: "",
   },
   {
     id: 5,
     title: "What Do We Do ?",
-    description: "BroChill provides a platform for innovative content creators. Where creators can post personalizable videos, personalizable images, and short videos on BroChill. All content posted by creators is curated based on user interests, social ratings, trends, events, special days, and festivals.",
-    className: "lg:col-span-3 md:col-span-3 md:row-span-1",
+    description: "DudePro is your all-in-one video editing companion that empowers you to unleash your creativity and craft stunning videos with ease. DudePro is your go-to solution for video editing, whether you’re creating content for social media, vlogs, presentations, or special occasions. Elevate your video editing game and transform your ideas into captivating visuals with DudePro!",
+    className: "lg:col-span-3 md:col-span-3 md:row-span-2",
     imgClassName: "",
-    titleClassName: "justify-start text-green-400",
+    titleClassName: "justify-start text-yellow-500",
     img: "",
     spareImg: "",
   },
@@ -50,7 +41,7 @@ export const gridItems = [
     id: 6,
     title: "Contact Via Email",
     description: "",
-    className: "lg:col-span-6 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
@@ -66,21 +57,28 @@ export const features = [
   {
     id: 1,
     name: "PHOTO EDITOR",
-    img: "/photo-to.svg",
+    img: "/f1.webp",
     nameImg: "",
   },
   {
     id: 2,
     name: "REELS",
-    img: "/video.svg",
+    img: "/f2.webp",
     nameImg: "",
   },
   {
     id: 3,
     name: "PHOTO-TO-VIDEO",
-    img: "/video-trim.svg",
+    img: "/f3.webp",
     nameImg: "",
   },
+  {
+    id: 4,
+    name: "PHOTO-TO-VIDEO",
+    img: "/f4.webp",
+    nameImg: "",
+  },
+ 
 ];
 
 
@@ -88,17 +86,27 @@ export const features = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/facebook.png",
+    img: "/linkedinsvgsquarecolor.svg",
     url: "facebookurl"
   },
   {
     id: 2,
-    img: "/linkedin.png",
+    img: "/facebooksvgsquarecolor.svg",
     url: "facebookurl"
   },
   {
     id: 3,
     img: "/instagram.png",
+    url: "facebookurl"
+  },
+  {
+    id: 4,
+    img: "/twittersvgsquarecolor.svg",
+    url: "facebookurl"
+  },
+  {
+    id: 5,
+    img: "/youtubesvg.svg",
     url: "facebookurl"
   },
 ];

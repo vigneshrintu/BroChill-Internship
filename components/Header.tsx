@@ -8,6 +8,7 @@ import {
   ProductItem,
 } from "../components/ui/NavbarMenu";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Header() {
   return (
@@ -24,13 +25,15 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
+
+        <Link href="/"><Image src={"/dudepro-logo.png"} alt="logo" height={78} width={78}></Image></Link>
         
-        <Link href="#home">Home</Link>
-        <Link href="#about">About</Link>
-        <Link href="#contact">Contact</Link>
+        <Link href="/#home">Home</Link>
+        <Link href="/#about">About</Link>
+        <Link href="/#contact">Contact</Link>
         
         
-        <MenuItem setActive={setActive} active={active} item="More">
+        {/* <MenuItem setActive={setActive} active={active} item="More">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/hobby">Privacy Policy</HoveredLink>
             <HoveredLink href="/team">Terms of Service</HoveredLink>
@@ -38,7 +41,7 @@ function Navbar({ className }: { className?: string }) {
               Content & Community Guidelines
             </HoveredLink>
           </div>
-        </MenuItem>
+        </MenuItem> */}
       </Menu>
     </div>
   );
