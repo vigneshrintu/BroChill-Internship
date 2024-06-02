@@ -33,7 +33,7 @@ const Footer = () => {
           ))}
         </div>
         
-        <p className="relative z-10  text-sm md:font-normal font-light mb-2">
+        <p className="relative z-10  text-sm md:font-normal font-normal mb-2">
           Copyright © DudePro. All Rights Reserved
         </p>
       </div>
