@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 
 const Terms = () => {
   return (
-    <main className="relative flex justify-center items-center flex-col overflow-visible mx-auto sm:px-4 px-4">
+    <main className="relative flex justify-center items-center flex-col overflow-visible mx-auto p-2">
       <Header />
 
       <div className="mt-28 mb-8 mx-auto h-full w-full block">

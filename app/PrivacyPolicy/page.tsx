@@ -4,7 +4,7 @@ import Footer from '../../components/Footer';
 
 const Policy = () => {
   return (
-    <main className="container mx-auto p-4">
+    <main className="container mx-auto p-2">
       <Header />
       <div className="bg-black-100 text-white p-2 rounded-lg shadow-lg">
         <h1 className="text-4xl font-bold mb-16 mt-16 text-center text-yellow-500">Privacy Policy</h1>
