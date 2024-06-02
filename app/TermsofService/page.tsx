@@ -9,7 +9,7 @@ const Terms = () => {
       <div className="mt-28 mb-8 mx-auto h-full w-full block">
         <div className="h-full w-full">
           <h1 className="text-center text-yellow-500 text-4xl font-extrabold">Terms of Service</h1>
-          <div className="mx-auto mt-8 mb-8 p-8 text-white font-normal font-xs">
+          <div className="mx-auto mt-8 mb-8 p-2 text-white font-normal font-xs">
             <p>These Terms of Use (“Terms”) govern your use of our website located at <a href="https://dudepro.app/" className="text-blue-500">https://dudepro.app/</a> and/or the DudePro mobile application (collectively, the “Platform”) made available by (“DudePro”, “Company”, “we”, “us” and “our”), a private company established under the laws of India. The terms “you” and “your” refer to the user of the Platform.</p>
             <p>These Terms are to be read with the DudePro Terms and conditions <a href="https://www.dudepro.app/privacy-policy/" className="text-blue-500">https://www.dudepro.app/privacy-policy/</a> and <a href="https://www.dudepro.app/content-community-guidelines/" className="text-blue-500">https://www.dudepro.app/content-community-guidelines/</a>, If you do not agree with the terms and conditions of these Terms, please do not use this Platform.</p>
             
