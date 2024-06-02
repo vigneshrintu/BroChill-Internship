@@ -16,9 +16,9 @@ const Footer = () => {
 
       <div className="relative z-10 flex mt-16 md:flex-col flex-col justify-between items-center">
         <div className="relative z-10 flex flex-col space-y-2 mb-4">
-          <Link href={"/PrivacyPolicy"}><p className="text-center hover:underline"> Privacy Policy</p></Link>
-          <Link href={"/TermsofService"}><p className="text-center hover:underline"> Terms of Service</p></Link>
-          <Link href={"/CommunityGuidelines"}><p className="text-center hover:underline"> Content & Community Guidelines</p></Link>
+          <Link href={"/PrivacyPolicy"}><p className="text-center hover:underline text-sm"> Privacy Policy</p></Link>
+          <Link href={"/TermsofService"}><p className="text-center hover:underline text-sm"> Terms of Service</p></Link>
+          <Link href={"/CommunityGuidelines"}><p className="text-center hover:underline text-sm"> Content & Community Guidelines</p></Link>
         </div>
 
         <div className="relative z-10 flex items-center md:gap-3 gap-6 mb-4">
@@ -33,7 +33,7 @@ const Footer = () => {
           ))}
         </div>
         
-        <p className="relative z-10 md:text-base text-sm md:font-normal font-light mb-4">
+        <p className="relative z-10  text-sm md:font-normal font-light mb-2">
           Copyright © DudePro. All Rights Reserved
         </p>
       </div>
