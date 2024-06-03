@@ -6,9 +6,9 @@ const CommunityGuidelines = () => {
   return (
     <main className="bg-black-100 text-white min-h-screen">
       <Header />
-      <div className="container mx-auto p-2 mt-20">
-        <div className="space-y-6">
+      <div className="container mx-auto p-2 mt-16">
           <h1 className="text-4xl text-yellow-500 mb-16 text-center font-bold">Community Guidelines & Content</h1>
+        <div className="space-y-6 text-xs font-light">
           <p>
             These content and community guidelines govern your use of our website located at <a href="https://dudepro.app/" className="text-blue-400">https://dudepro.app/</a> and/or the DudePro mobile application (collectively, the “Platform”) made available by DudePro Internet Private Limited (“DudePro”, “Company”, “we”, “us” and “our”), a private company established under the laws of India. The terms “you” and “your” refer to the user of the Platform.
           </p>

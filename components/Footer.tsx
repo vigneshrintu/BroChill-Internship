@@ -9,7 +9,7 @@ const Footer = () => {
         <h1 className="heading lg:max-w-[45vw]">
           Address
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
+        <p className="text-white-100 md:mt-10 my-5 text-center text-sm font-normal">
           Third Floor, Ravi Chambers, Kavuri Hills, Madhapur, Telangana 500083.
         </p>
       </div>

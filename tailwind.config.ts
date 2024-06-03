@@ -28,11 +28,7 @@ const config = {
     extend: {
       colors: {
        
-        white: {
-          DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
-        },
+       
         blue: {
           "100": "#E4ECFF",
         },
