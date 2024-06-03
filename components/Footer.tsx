@@ -4,38 +4,28 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="w-full pt-10 pb-0 relative" id="contact">
-      
       <div className="relative z-10 flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Address
+          Contact <span className="text-yellow-500">Us</span>
         </h1>
-        <p className="text-white-100 md:mt-10 my-5 text-center text-sm font-normal">
-          Third Floor, Ravi Chambers, Kavuri Hills, Madhapur, Telangana 500083.
+        <p className="text-white-100 md:mt-10 my-5 text-center text-md font-normal">
+          bropro.app@gmail.com
         </p>
       </div>
 
-      <div className="relative z-10 flex mt-16 md:flex-col flex-col justify-between items-center">
-        <div className="relative z-10 flex flex-col space-y-2 mb-4">
-          <Link href={"/PrivacyPolicy"}><p className="text-center hover:underline text-sm"> Privacy Policy</p></Link>
-          <Link href={"/TermsofService"}><p className="text-center hover:underline text-sm"> Terms of Service</p></Link>
-          <Link href={"/CommunityGuidelines"}><p className="text-center hover:underline text-sm"> Content & Community Guidelines</p></Link>
-        </div>
-
-        <div className="relative z-10 flex items-center md:gap-3 gap-6 mb-4">
+      <div className="relative z-10 flex mt-16 md:flex-col flex-col lg:flex-row justify-between items-center w-full px-4">
+        <p className="relative z-10 text-sm md:font-normal font-normal mb-2 lg:mb-0 lg:mr-auto">
+          Copyright © DudePro. All Rights Reserved
+        </p>
+        <div className="relative z-10 flex items-center md:gap-3 gap-6 mb-4 lg:mb-0 lg:ml-auto">
           {socialMedia.map((info) => (
             <Link key={info.id} href={info.url}>
-              <div
-                className="w-10 h-10 cursor-pointer flex justify-center items-center bg-transparent"
-              >
+              <div className="w-10 h-10 cursor-pointer flex justify-center items-center bg-transparent">
                 <img src={info.img} alt="icons" width={20} height={20} />
               </div>
             </Link>
           ))}
         </div>
-        
-        <p className="relative z-10  text-sm md:font-normal font-normal mb-2">
-          Copyright © DudePro. All Rights Reserved
-        </p>
       </div>
     </footer>
   );

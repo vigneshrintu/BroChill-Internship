@@ -7,7 +7,7 @@ const Policy = () => {
     <main className="container mx-auto p-2">
       <Header />
       <div className="bg-black-100 text-white p-2 rounded-lg shadow-lg">
-        <h1 className="text-4xl font-bold mb-16 mt-16 text-center text-yellow-500">Privacy Policy</h1>
+        <h1 className="text-4xl font-bold mb-16 mt-20 text-center text-yellow-500">Privacy Policy</h1>
         <div className="space-y-6 text-xs font-light">
           <p>
             We at DudePro recognize that your privacy is very important and take it seriously. This Privacy Policy (“Privacy Policy”) sets out how we collect, use and disclose your data when you use our website Home – DudePro (“Website”) and/or mobile application called DudePro (“App”). The Website and App are collectively referred to as the “Platform”. References to “we”, “our” or “us” or the “Company” shall mean the Platform. Any references to “you”, “your” or “user” shall mean any person or entity using our Platform. We will not use or share your information with anyone except as described in this Privacy Policy.

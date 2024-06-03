@@ -18,11 +18,11 @@ const Clients = () => {
         <div className="mt-20 flex flex-wrap md:flex-row sm:flex-col items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
           {features.map((feature) => (
             <React.Fragment key={feature.id}>
-              <div className="flex md:max-w-60 max-w-32 gap-2">
+              <div className="flex md:max-w-60 max-w-64 gap-2">
                 <img
                   src={feature.img}
                   alt={feature.name}
-                  className="md:w-36 w-30"
+                  className="md:w-48 w-30"
                 />
                 
               </div>

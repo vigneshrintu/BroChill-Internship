@@ -1,48 +1,70 @@
 "use client";
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
-import {
-  HoveredLink,
-  Menu,
-  MenuItem,
-  ProductItem,
-} from "../components/ui/NavbarMenu";
 import Link from "next/link";
 import Image from "next/image";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 export function Header() {
   return (
-    <div className="relative w-full flex items-center justify-center">
-      <Navbar className="top-2" />
+    <div className="relative w-full flex items-center justify-between bg-black">
+      <Navbar className="top-0" />
     </div>
   );
 }
 
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
-  return (
-    <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
-    >
-      <Menu setActive={setActive}>
+  const [menuOpen, setMenuOpen] = useState(false);
 
-        <Link href="/"><Image src={"/dudepro-logo.png"} alt="logo" height={78} width={78}></Image></Link>
-        
-        <Link href="/#home">Home</Link>
-        <Link href="/#about">About</Link>
-        <Link href="/#contact">Contact</Link>
-        
-        
-        {/* <MenuItem setActive={setActive} active={active} item="More">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Privacy Policy</HoveredLink>
-            <HoveredLink href="/team">Terms of Service</HoveredLink>
-            <HoveredLink href="/individual">
-              Content & Community Guidelines
-            </HoveredLink>
-          </div>
-        </MenuItem> */}
-      </Menu>
-    </div>
+  return (
+    <nav
+      className={cn("absolute top-0 left-0 right-0 p-6 pt-4 z-50 text-white bg-transparent", className)}
+    >
+      <div className="flex items-center justify-between w-full max-w-7xl mx-auto">
+        <div className="flex items-center">
+          <Link href="/">
+            <Image src={"/dudepro-logo.png"} alt="logo" height={130} width={130} />
+          </Link>
+          
+        </div>
+        <div className="lg:hidden">
+          <button onClick={() => setMenuOpen(!menuOpen)}>
+            {menuOpen ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
+          </button>
+        </div>
+        <div className="hidden lg:flex text-sm space-x-4 ml-auto">
+  <div className="whitespace-nowrap hover:text-gray-300">
+    <Link href="/#home">Home</Link>
+  </div>
+  <div className="whitespace-nowrap hover:text-gray-300">
+    <Link href="/#about">About</Link>
+  </div>
+  <div className="whitespace-nowrap hover:text-gray-300">
+    <Link href="/#contact">Contact</Link>
+  </div>
+  <div className="whitespace-nowrap hover:text-gray-300">
+    <Link href="/privacy-policy">Privacy Policy</Link>
+  </div>
+  <div className="whitespace-nowrap hover:text-gray-300">
+    <Link href="/terms-of-service">Terms of Service</Link>
+  </div>
+  <div className="whitespace-nowrap hover:text-gray-300">
+    <Link href="/content-community-guidelines">Content & Community Guidelines</Link>
+  </div>
+</div>
+
+      </div>
+      {menuOpen && (
+        <div className="lg:hidden flex flex-col justify-center items-center space-y-3 mt-8 text-lg bg-black p-8">
+          <Link href="/#home">Home</Link>
+          <Link href="/#about">About</Link>
+          <Link href="/#contact">Contact</Link>
+          <Link href="/privacy-policy">Privacy Policy</Link>
+          <Link href="/terms-of-service">Terms of Service</Link>
+          <Link href="/content-community-guidelines">Content & Community Guidelines</Link>
+        </div>
+      )}
+    </nav>
   );
 }
