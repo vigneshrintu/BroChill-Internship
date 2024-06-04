@@ -26,6 +26,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        gluten: ['Gluten', 'sans-serif'],
+      },
       colors: {
        
        

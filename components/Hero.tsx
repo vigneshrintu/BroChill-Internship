@@ -12,11 +12,11 @@ const Hero = () => {
         <div className="flex justify-center mt-32 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
             <TextGenerateEffect
-              words="DudePro"
+              words="DUDEPRO"
               className="text-center text-[50px] md:text-3xl lg:text-xl font-extrabold"
             />
 
-            <p className=" text-center md:tracking-wider text-sm md:text-lg lg:text-lg font-bold">
+            <p className="text-center md:tracking-wider text-sm md:text-lg lg:text-lg font-bold">
               Unlock Your Creativity with Pro Templates <br /> Edit Like a Pro!
             </p>
 

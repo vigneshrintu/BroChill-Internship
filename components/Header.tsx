@@ -19,7 +19,7 @@ function Navbar({ className }: { className?: string }) {
 
   return (
     <nav
-      className={cn("absolute top-0 left-0 right-0 p-6 pt-4 z-50 text-white bg-transparent", className)}
+      className={cn("absolute top-0 left-0 right-0 p-4 pt-4 z-50 text-white bg-transparent", className)}
     >
       <div className="flex items-center justify-between w-full max-w-7xl mx-auto">
         <div className="flex items-center">
@@ -56,7 +56,7 @@ function Navbar({ className }: { className?: string }) {
 
       </div>
       {menuOpen && (
-        <div className="lg:hidden flex flex-col justify-center items-center space-y-3 mt-8 text-lg bg-black p-8">
+        <div className="lg:hidden flex flex-col justify-center items-center space-y-2 mt-8  bg-black p-8 text-md">
           <Link href="/#home">Home</Link>
           <Link href="/#about">About</Link>
           <Link href="/#contact">Contact</Link>

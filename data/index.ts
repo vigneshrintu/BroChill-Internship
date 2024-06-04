@@ -14,8 +14,6 @@ export const gridItems = [
     img: "/dudepro-brand.png",
     spareImg: "",
   },
-
-
   {
     id: 4,
     title: "What is DudePro ?",
@@ -36,7 +34,6 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-
   {
     id: 6,
     title: "Contact Via Email",
@@ -48,10 +45,6 @@ export const gridItems = [
     spareImg: "",
   },
 ];
-
-
-
-
 
 export const features = [
   {
@@ -78,10 +71,7 @@ export const features = [
     img: "/f4.webp",
     nameImg: "",
   },
- 
 ];
-
-
 
 export const socialMedia = [
   {
