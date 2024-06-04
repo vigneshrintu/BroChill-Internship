@@ -4,9 +4,9 @@ import Footer from "../../components/Footer";
 
 const CommunityGuidelines = () => {
   return (
-    <main className="bg-black-100 text-white min-h-screen">
+    <main className="bg-black-100 text-white min-h-screen p-2 mx-auto">
       <Header />
-      <div className="container mx-auto p-2 mt-20">
+      <div className="container mx-auto p-2 mx-auto mt-20">
           <h1 className="text-4xl text-yellow-500 mb-16 text-center font-bold">Community Guidelines & Content</h1>
         <div className="space-y-6 text-xs font-light">
           <p>
