@@ -6,7 +6,7 @@ const Policy = () => {
   return (
     <main className="container mx-auto p-2">
       <Header />
-      <div className="bg-black-100 text-white p-2 rounded-lg shadow-lg">
+      <div className="max-w-4xl mx-auto px-4 bg-black-100 text-white p-2 rounded-lg shadow-lg">
         <h1 className="text-4xl font-bold mb-16 mt-20 text-center text-yellow-500">Privacy Policy</h1>
         <div className="space-y-6 text-xs font-light">
           <p>

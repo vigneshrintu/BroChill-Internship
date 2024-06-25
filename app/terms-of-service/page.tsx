@@ -6,7 +6,7 @@ const Terms = () => {
     <main className="relative flex justify-center items-center flex-col overflow-visible mx-auto p-2">
       <Header />
 
-      <div className="mt-20 mx-auto h-full w-full block p-2">
+      <div className="mt-20 mx-auto h-full w-full block p-2 max-w-4xl px-4">
         <div className="h-full w-full">
           <h1 className="text-center text-yellow-500 text-4xl font-extrabold mb-16">Terms of Service</h1>
           <div className="mx-auto text-white font-light text-xs space-y-6">
