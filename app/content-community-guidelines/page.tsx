@@ -98,7 +98,7 @@ const CommunityGuidelines = () => {
               We have zero tolerance for content or activities that advocate or promote illegal activities. Content related to organized crime, violence, or terrorist activities is not allowed. Sale of illegal goods or services, regulated goods, drugs, and soliciting or selling of sexual services is strictly forbidden.
             </p>
             <p>
-              Do not post tutorials or instructions on content that educates the users on illegal activities (such as making bombs or doing drugs). Do not promote online gambling, online real money games of skill, or online lotteries. Do not use our Platform to solicit or facilitate any transaction or gift involving goods and services which are declared illegal by the Government of India
+              Do not post tutorials or instructions on content that educates the users on illegal activities (such as making bombs or doing drugs). Do not promote online gambling, online real money games of skill, or online lotteries. Do not use our Platform to solicit or facilitate any transaction or gift involving goods and services which are declared illegal by the Government of India.
             </p>
             <p>
               Impersonating another person (such as your friends, celebrities, or brands) and distributing false or misleading information on our Platform to make personal or financial gains is fraud.
