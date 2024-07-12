@@ -12,10 +12,10 @@ const CommunityGuidelines = () => {
           <h1 className="text-center text-yellow-500 text-4xl font-extrabold mb-16">Community Guidelines & Content</h1>
           <div className="mx-auto text-white font-light text-xs space-y-6">
             <p>
-              These content and community guidelines govern your use of our website located at <a href="https://dudepro.app/" className="text-blue-500">https://dudepro.app/</a> and/or the DudePro mobile application (collectively, the "Platform") made available by DudePro Internet Private Limited ("DudePro", "Company", "we", "us" and "our"), a private company established under the laws of India. The terms "you" and "your" refer to the user of the Platform.
+              These content and community guidelines govern your use of our website located at <a href="https://dudepro.app/" className="text-blue-500">https://dudepro.app/</a> and/or the DudePro mobile application (collectively, the &quot;Platform&quot;) made available by DudePro Internet Private Limited (&quot;DudePro&quot;, &quot;Company&quot;, &quot;we&quot;, &quot;us&quot; and &quot;our&quot;), a private company established under the laws of India. The terms &quot;you&quot; and &quot;your&quot; refer to the user of the Platform.
             </p>
             <p>
-              These Guidelines are to be read with the DudePro <a href="https://www.dudepro.app/terms-of-service/" className="text-blue-500">Terms of Use</a> and the DudePro <a href="https://www.dudepro.app/privacy-policy/" className="text-blue-500">Privacy Policy</a> (collectively, "Terms"). The capitalized words used in these guidelines shall have the meaning given to such words in the Terms.
+              These Guidelines are to be read with the DudePro <a href="https://www.dudepro.app/terms-of-service/" className="text-blue-500">Terms of Use</a> and the DudePro <a href="https://www.dudepro.app/privacy-policy/" className="text-blue-500">Privacy Policy</a> (collectively, &quot;Terms&quot;). The capitalized words used in these guidelines shall have the meaning given to such words in the Terms.
             </p>
             <p>
               Please note that we may change these Guidelines from time to time and we reserve the right to do so.
@@ -30,7 +30,7 @@ const CommunityGuidelines = () => {
             <p>
               All the content, including without limitation, content that is uploaded, posted, commented on, or shared by you on our Platform, must adhere to the laws of the Republic of India, including without limitation, the Indian Penal Code, 1860 and, the Information Technology Act, 2000 along with all rules and amendments made under such laws. We cooperate with legal authorities in cases of breach of applicable laws.
             </p>
-            <p>Remember, simply comply with the law and don't do anything that could land you into trouble.</p>
+            <p>Remember, simply comply with the law and don&apos;t do anything that could land you into trouble.</p>
 
             <h3 className="text-xl font-semibold mt-6 mb-2">b. Nudity and Pornography</h3>
             <p>
@@ -66,7 +66,7 @@ const CommunityGuidelines = () => {
               Copying content whose intellectual property rights are held by another person or organization, and posting it as your own, is not allowed. If you want to reshare some content from within the Platform, do not remove attributions, watermarks, and original captions. Also, please take permission and give due credits to your fellow user who creates such content by mentioning their name.
             </p>
             <p>
-              If you are creative, your work will be protected. If you want to use or share anyone's work, take permission and give credits.
+              If you are creative, your work will be protected. If you want to use or share anyone&apos;s work, take permission and give credits.
             </p>
 
             <h3 className="text-xl font-semibold mt-6 mb-2">e. Violence</h3>
@@ -107,7 +107,7 @@ const CommunityGuidelines = () => {
 
             <h3 className="text-xl font-semibold mt-6 mb-2">i. Non-Consensual (Personal) Content</h3>
             <p>
-              You must not post anyone's personal or intimate photographs or videos without their permission or consent. Such an act is an invasion of a person's privacy.
+              You must not post anyone&apos;s personal or intimate photographs or videos without their permission or consent. Such an act is an invasion of a person&apos;s privacy.
             </p>
             <p>
               This also includes posting content that portrays a person in a bad light and negatively impacts their reputation. We do not allow content that may reveal private information about an individual, such as phone number, address, financial information, Aadhar Number, etc.
@@ -122,7 +122,7 @@ const CommunityGuidelines = () => {
 
             <h3 className="text-xl font-semibold mt-6 mb-2">k. Spam</h3>
             <p>
-              Posting repetitive content or sending the same message multiple times to a large number of people is considered "spamming". This also includes posting links to external websites that are unsafe and posting content with misleading clickbait. Any act that artificially increases the number of views, likes, comments, or any other metrics using technical means is forbidden.
+              Posting repetitive content or sending the same message multiple times to a large number of people is considered &quot;spamming&quot;. This also includes posting links to external websites that are unsafe and posting content with misleading clickbait. Any act that artificially increases the number of views, likes, comments, or any other metrics using technical means is forbidden.
             </p>
             <p>Respect your fellow users and avoid spamming.</p>
 
