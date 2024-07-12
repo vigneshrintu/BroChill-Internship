@@ -53,10 +53,10 @@ function Navbar({ className }: { className?: string }) {
   <div className="whitespace-nowrap hover:text-gray-300">
     <Link href="/#contact">Contact</Link>
   </div>
-  <div>
+  {/* <div>
 <Link href='/sign-up'>Sign up</Link>
 </div>
-<div><Link href='/sign-in'>Sign In</Link></div>
+<div><Link href='/sign-in'>Sign In</Link></div> */}
 
   <div className="whitespace-nowrap hover:text-gray-300">
     <Link href="/privacy-policy">Privacy Policy</Link>
