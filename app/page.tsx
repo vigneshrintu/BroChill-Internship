@@ -1,8 +1,7 @@
 
 "use client";
 
-// import { navItems } from "@/data";
-// import { FloatingNav } from "@/components/ui/FloatingNavbar";
+
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";

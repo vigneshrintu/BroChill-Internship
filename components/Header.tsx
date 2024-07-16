@@ -4,13 +4,6 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import {
-  ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton
-} from '@clerk/nextjs'
 
 export function Header() {
   return (
@@ -30,8 +23,7 @@ function Navbar({ className }: { className?: string }) {
     >
       <div className="flex items-center justify-between w-full max-w-7xl mx-auto">
         <div className="flex items-center space-x-4">
-        <UserButton>
-        </UserButton>
+        
         
           <Link href="/">
             <Image src={"/dudepro-logo.png"} alt="logo" height={130} width={130} />

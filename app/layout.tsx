@@ -4,13 +4,7 @@ import { Gluten  } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 
-import {
-  ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton
-} from '@clerk/nextjs'
+
 
 const inter = Gluten({
   subsets: ["latin"],
@@ -28,8 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-   
-<ClerkProvider>
+
 <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/logo.png" sizes="any" />
@@ -52,7 +45,7 @@ export default function RootLayout({
      
       </body>
     </html>
-    </ClerkProvider>
+ 
 
    
     
